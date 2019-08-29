@@ -1,6 +1,6 @@
 FROM ubuntu:19.10
 
-RUN sudo apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     build-essential \
     g++-arm-linux-gnueabihf \
     gcc-arm-linux-gnueabihf \
