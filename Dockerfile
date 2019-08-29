@@ -15,4 +15,4 @@ RUN wget https://github.com/Kitware/CMake/releases/download/v3.15.2/cmake-3.15.2
 
 RUN pip3 install conan
 
-RUN apt-get install libserial-dev
+RUN apt-get install -y libserial-dev
